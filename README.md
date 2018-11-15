@@ -25,3 +25,23 @@ git config --global --list 查看配置信息
 git config --global user.name "" 配置用户名
 
 git config --global user.email "" 配置邮箱
+# git上传步骤
+git init
+
+git add *
+
+git commit -m ""
+
+git pull --rebase origin master 这一句可以代替以下两句
+
+git fetch
+
+git merge
+
+修改文件
+
+git add *
+
+git commit -m ""
+
+git push -u origin master
