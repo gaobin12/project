@@ -3,3 +3,25 @@
 
 create a project
 # react
+
+#git 命令
+
+cd 切换目录
+
+mkdir 创建目录
+
+rm 删除
+
+mv 移动
+
+pwd 查看根目录
+
+vim 启动编辑器
+
+esc 退出 ：wq保存
+
+git config --global --list 查看配置信息
+
+git config --global user.name "" 配置用户名
+
+git config --global user.email "" 配置邮箱
