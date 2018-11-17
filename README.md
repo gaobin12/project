@@ -45,3 +45,7 @@ git add *
 git commit -m ""
 
 git push -u origin master
+
+#取消本地目录下关联的远程库
+
+git remote remove origin
