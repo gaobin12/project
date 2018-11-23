@@ -38,6 +38,23 @@ git fetch
 
 git merge
 
+#git 从安装到与远程项目交互
+
+下载 git 
+
+配置git用户信息 git config --global user.name "xxx"
+git config --global user.email "xxx"
+
+获取密钥 ssh-keygen -t rsa -C 邮箱 一直回车
+
+在github的settings中找到ssh配置 创建连接
+
+测试连通性 git -T git@github.com  连接成功会在 /.ssh目录下 多一个新文件known_hosts
+
+本地项目与远程项目关联 git remote add origin https://gaobin12/demo.git
+
+
+
 修改文件
 
 git add *
