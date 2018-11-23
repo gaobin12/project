@@ -53,6 +53,30 @@ git config --global user.email "xxx"
 
 本地项目与远程项目关联 git remote add origin https://gaobin12/demo.git
 
+#第一次上传（本地到远程）
+
+git init 初始化
+
+git add . 添加到暂存区
+
+git commit -m "添加到本地分支 默认主分支 这里写说明"
+
+git push -u origin master 推送到主分支
+
+#第一次远程到本地
+
+git clone https://gaobin12/demo.git(在github项目中复制即可)
+
+再次提交
+
+git add .
+
+git commit -m "说明"
+
+git push origin master 推送
+
+拉取 git pull 
+
 
 
 修改文件
